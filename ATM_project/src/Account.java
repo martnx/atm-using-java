@@ -84,7 +84,7 @@ public class Account {
 		
 		System.out.printf("\nTransaction history for account %s\n", this.uuid);
 		for (int t = this.transaction.size()-1; t>=0; t--) {
-			System.out.printf(this.transaction.get(t).getSummaryLine());
+			System.out.println(this.transaction.get(t).getSummaryLine());
 		}
 		System.out.println();
 	}
